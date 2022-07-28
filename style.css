@@ -30,36 +30,36 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-.page__head-section{
-    margin-top: 80px;
-    margin-left: 55px;
-    margin-bottom: 80px;
+.page__head{
+    margin: 4em 6em;
 }
 
-.page__second-section{
+.page__section{
     display: flex;
-    align-self: center;
-    margin-right: 300px;
-    margin-left: 300px;
-    border-style: solid;
+    margin: auto 6em;
 }
 
-.page__second-section__image{
-    border-style: groove;
+.page__section > div{
+    margin: 1em;
 }
 
-.page__second-section__container__text-title{
+.page__second-section__div-image img{
+    width: 100%;
+    height: auto;
+}
+
+.page__section__div-card-title{
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 38px;
     margin-bottom: 25px;
 }
 
-.page__second-section__container__text-description{
+.page__second__div-card-description{
     color: #fff;
 }
 
-.page__second-section__button-register{
+.page__second__div-card-button{
     background-color: #fff;
     width: 150px;
     height: 45px;
@@ -72,12 +72,7 @@ body{
     color: var(--Violet);
 }
 
-.page__second-section__button-register:hover{
-    cursor: pointer;
+.page__footer > img{
+    width: 10px;
+    height: 10px;
 }
-
-.page__footer > img {
-    width: 30px;
-    height: 30px;
-}
-
